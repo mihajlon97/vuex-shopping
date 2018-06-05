@@ -9,3 +9,9 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
+<script>
+  alert('Tebra?');
+  alert((window.localStorage.getItem('tebra')) ? window.localStorage.getItem('tebra') : 'kurac');
+  window.localStorage.setItem('tebra', 'tebra');
+  alert((window.localStorage.getItem('tebra')) ? window.localStorage.getItem('tebra') : 'kurac');
+</script>
