@@ -10,12 +10,10 @@
   </body>
 </html>
 <script>
-  alert(window.localStorage.getItem('tebra'))
-
+  var x = document.cookie;
   alert('Tebra?');
-  alert('sta?')
-alert(window.localStorage.getItem('tebra'))
+  alert(x);
+  document.cookie = 'username=John Smith; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/';
 
-  window.localStorage.setItem('tebra', 'tebra')
-alert(window.localStorage.getItem('tebra'))
+  alert(document.cookie)
 </script>
